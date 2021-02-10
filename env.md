@@ -1,7 +1,7 @@
 # Environment variables
 
-SECRET_KEY
-ENV_TYPE="dev/live"
+SECRET_KEY="sdlkfjalskdjflajsdf3owqju3oslefjlaseiurtalsjfl"
+ENV_TYPE="dev/live" 
 DEBUG=True
 
 # AWS
@@ -14,11 +14,11 @@ AWS_SES_REGION_ENDPOINT
 
 
 # DB
-DBNAME
-DBUSER
-DBPASSWORD
-DBHOST
-DBPORT
+DBNAME=postgres
+DBUSER=postgres
+DBPASSWORD=password123
+DBHOST=localhost
+DBPORT=5432
 
 # Sentry
 SENTRY_DSN
@@ -28,7 +28,7 @@ CELERY_BROKER_URL
 CELERY_RESULT_BACKEND
 
 #CACHES
-MEMCACHELOCATION
+MEMCACHELOCATION=./memcache
 
 # Email
 DEFAULT_FROM_EMAIL
